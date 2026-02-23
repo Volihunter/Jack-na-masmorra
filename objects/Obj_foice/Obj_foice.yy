@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_garfin_iniV2",
-    "path":"sprites/Spr_garfin_iniV2/Spr_garfin_iniV2.yy",
+    "name":"Spr_foice_iniV2",
+    "path":"sprites/Spr_foice_iniV2/Spr_foice_iniV2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

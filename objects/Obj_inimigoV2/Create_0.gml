@@ -1,7 +1,8 @@
-//Ao nascer venho com um garfin de brinde
-instance_create_layer(x,y,"Objetos",Obj_foice);
+//Ao nascer venho com uma foice de brinde
+ var _minhafoice = instance_create_layer(x,y,"Objetos",Obj_foice);
 
-
+//variável para guardar a minha foice
+minhafoice = _minhafoice;
 
 
 
