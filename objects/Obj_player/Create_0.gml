@@ -14,9 +14,16 @@ espera_praatk = 50;
 //Variável do modo do jack
 jackform = 1;
 
+//Variável para a minha posição no eixo X
+minhaposx = noone;
+
+//Variável para a minha posição no eixo Y
+minhaposy = noone;
+
 
 #endregion
-
+//Setando meu alarme
+alarm[0] = 60;
 
 #region Métodos
 
@@ -50,6 +57,9 @@ movimenta_player = function()
 	{
 		y = room_height - sprite_height/2;
 	}	
+	
+	
+	
 }
 
 //Método para atacar no modo normal
@@ -64,9 +74,18 @@ bastaozada = function()
 		{
 			timer_atk = espera_praatk;
 			var _bastao = instance_create_layer(x - 5,y - 25,"Player",Obj_bastao);
-			//_bastao.image_xscale = 1.5;
-			//_bastao.image_yscale = 1.5;
+			_bastao.image_xscale = 1.5;
+			
 		}	
 	}
+	
 }
 
+//Método para mudar de forma
+entremundos = function()
+{
+	if(keyboard_check_pressed(vk_space)) 
+	{
+		jackform = 0	
+	}
+}	

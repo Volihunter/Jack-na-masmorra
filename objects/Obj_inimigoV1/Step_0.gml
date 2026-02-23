@@ -1,2 +1,5 @@
-//Fazendo meu inimigo se multiplicar
-multiplicando();
+//Me movendo na direção do player
+
+
+
+
