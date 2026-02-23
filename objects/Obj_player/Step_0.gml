@@ -11,4 +11,3 @@ entremundos();
 minhaposx = x;
 
 //Debugando
-show_debug_message(minhaposx);

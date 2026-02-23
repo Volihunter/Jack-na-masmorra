@@ -12,23 +12,21 @@ timer_atk = 0
 espera_praatk = 50;
 
 //Variável do modo do jack
-jackform = 1;
+jackform = 0;
 
-//Variável para a minha posição no eixo X
-minhaposx = noone;
 
-//Variável para a minha posição no eixo Y
-minhaposy = noone;
 
 
 #endregion
-//Setando meu alarme
-alarm[0] = 60;
+
 
 #region Métodos
 
 movimenta_player = function()
 {
+	//Só posso me mover com o corpo físico se estiver com a alma
+	if(jackform = 0) return;
+	
 	//Identificando as direções com as letras do teclado
 	var _cima = keyboard_check(ord("W"));
 	var _baixo = keyboard_check(ord("S"));
@@ -86,6 +84,6 @@ entremundos = function()
 {
 	if(keyboard_check_pressed(vk_space)) 
 	{
-		jackform = 0	
+		jackform = !jackform;	
 	}
 }	
