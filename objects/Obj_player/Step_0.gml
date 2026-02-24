@@ -11,7 +11,14 @@ entremundos();
 minhaposx = x;
 
 //Debugando
-show_debug_message(invencibilidade);
+show_debug_message(jackform);
+
+//Ao sair do modo espírito ele tem que voltar pro corpo e as barreiras também somem
+if(instance_exists(Obj_player_spirit) && jackform == 1)
+{
+  instance_destroy(Obj_player_spirit);
+  instance_destroy(Obj_barreira_espiritual);
+}
 
 if(invencibilidade > 0)
 {

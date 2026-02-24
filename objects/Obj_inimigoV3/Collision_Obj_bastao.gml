@@ -1,5 +1,5 @@
-//Quando eu tomar bastaozada eu morro!
-instance_destroy();
+//tomando bastaozada
+tomei_hit = 1;
 
-//Mas levo o bastão junto!!
+//Se eu tomar dano levo o bastão junto!!
 instance_destroy(other);

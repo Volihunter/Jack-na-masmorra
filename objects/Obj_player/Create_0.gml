@@ -6,13 +6,13 @@ vel = 2;
 dano = 2;
 
 //Temporizador de ataque
-timer_atk = 0
+timer_atk = 5;
 
 //Tempo de espera do ataque
 espera_praatk = 50;
 
 //Variável do modo do jack
-jackform = 0;
+jackform = 1;
 
 //variável de vidas
 vidas = 1;
@@ -61,11 +61,11 @@ movimenta_player = function()
 	}
 	
 	//Limitando o player dentro da room no eixo Y
-	if (y <= sprite_width/2) y = sprite_width/2;
+	if (y <= sprite_height/2) y = sprite_height/2; //Por cima
 	
 	if(y >= room_height - sprite_height/2)
 	{
-		y = room_height - sprite_height/2;
+		y = room_height - sprite_height/2; //Por baixo
 	}	
 	
 	//Diminuindo o timer de invencibilidade
@@ -97,7 +97,11 @@ entremundos = function()
 {
 	if(keyboard_check_pressed(vk_space)) 
 	{
-		jackform = !jackform;	
+		jackform = !jackform;
+		var _espirito = instance_create_layer(x,y,"Objetos",Obj_player_spirit);
+		_espirito.image_xscale = 1.5;
+		_espirito.image_yscale = 1.5;
+		_espirito.image_alpha = 0.9;
 	}
 }	
 
