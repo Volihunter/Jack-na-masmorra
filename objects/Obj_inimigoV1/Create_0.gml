@@ -7,6 +7,8 @@ morri = 0;
 //Me movendo para a última posição do player
 alarm[0] = 50;
 
+//Variavel da minha velocidade velocidade
+vel = 0.9;
 
 
 
@@ -21,6 +23,7 @@ multiplicando = function()
 		_cria1.morri = 0;
 		_cria1.multipliquei = 1;
 		_cria1.hspeed = 1.5;
+		_cria1.vel = 1.2;
 		//_cria1.solid = false;
 		
 		var _cria2 = instance_create_layer(x - 45,y,"Inimigos", Obj_inimigoV1)
@@ -29,6 +32,7 @@ multiplicando = function()
 		_cria2.morri = 0;
 		_cria2.multipliquei = 1;
 		_cria2.hspeed = -1.5;
+		_cria2.vel = 1.2;
 		//_cria2.solid = false;
 		
 	}

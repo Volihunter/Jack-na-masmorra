@@ -14,6 +14,18 @@ espera_praatk = 50;
 //Variável do modo do jack
 jackform = 0;
 
+//variável de vidas
+vidas = 1;
+
+//timer de invencibilidade
+timer_invencivel = game_get_speed(gamespeed_fps) * 3;
+
+//contador da invencibilidade
+invencibilidade = 0;
+
+//Pausando minha animação
+image_speed = 0;
+
 
 
 
@@ -56,7 +68,8 @@ movimenta_player = function()
 		y = room_height - sprite_height/2;
 	}	
 	
-	
+	//Diminuindo o timer de invencibilidade
+	invencibilidade --;
 	
 }
 
@@ -87,3 +100,31 @@ entremundos = function()
 		jackform = !jackform;	
 	}
 }	
+
+//Método para perder vida
+perde_vida = function()
+{
+	if(vidas > 0 && invencibilidade <= 0)
+	{
+		vidas--;
+		invencibilidade = timer_invencivel;
+	}
+	else if(vidas == 0)
+	{
+		layer_sequence_create("Sq_gameover",0,0,Sq_game_over);
+		audio_stop_all();
+	}
+}
+
+//Método para desenhar ícones na tela
+desenha_icon = function(_qtd = 1, _sprite = Spr_foice_iniV2)
+{
+	//espaçando as sprites no eixo X
+	var _espacox = 10;
+	
+	repeat(vidas)
+	{
+		_espacox += 24;
+		draw_sprite_ext(_sprite,0,1+ _espacox,13,0.5,0.5,0,c_white,1);	
+	}
+}

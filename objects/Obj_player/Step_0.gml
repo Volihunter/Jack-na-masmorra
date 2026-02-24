@@ -11,3 +11,14 @@ entremundos();
 minhaposx = x;
 
 //Debugando
+show_debug_message(invencibilidade);
+
+if(invencibilidade > 0)
+{
+	image_speed = 2;
+}
+else if (invencibilidade < 0)
+{
+	image_speed = 0;
+	image_index = 0;
+}

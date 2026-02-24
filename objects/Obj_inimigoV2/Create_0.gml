@@ -4,6 +4,8 @@
 //variável para guardar a minha foice
 minhafoice = _minhafoice;
 
+//Variável da minha velocidade
+vel = 1.3;
 
 
 

@@ -6,7 +6,7 @@
 
 	if point_distance(x,y, _ex, _ey) > -10
 	{
-		move_towards_point( _ex,  _ey, 0.9);	
+		move_towards_point( _ex,  _ey, vel);	
 	}
 
 	alarm[0] = 50;
