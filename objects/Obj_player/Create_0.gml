@@ -15,7 +15,7 @@ espera_praatk = 50;
 jackform = 1;
 
 //variável de vidas
-vidas = 4;
+vidas = 3;
 
 //timer de invencibilidade
 timer_invencivel = game_get_speed(gamespeed_fps) * 3;
@@ -109,14 +109,14 @@ entremundos = function()
 }	
 
 //Método para perder vida
-perde_vida = function()
+perde_vida = function(_qtd = 1)
 {
 	if(vidas > 0 && invencibilidade <= 0)
 	{
-		vidas--;
+		vidas -= _qtd;
 		invencibilidade = timer_invencivel;
 	}
-	else if(vidas == 0)
+	else if(vidas <= 0)
 	{
 		layer_sequence_create("Sq_gameover",0,0,Sq_game_over);
 		audio_stop_all();

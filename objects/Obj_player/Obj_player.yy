@@ -10,6 +10,8 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_inimigoV2","path":"objects/Obj_inimigoV2/Obj_inimigoV2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_inimigoV3","path":"objects/Obj_inimigoV3/Obj_inimigoV3.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_projetil","path":"objects/Obj_projetil/Obj_projetil.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_tiro_mortalA3","path":"objects/Obj_tiro_mortalA3/Obj_tiro_mortalA3.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_tiroA2","path":"objects/Obj_tiroA2/Obj_tiroA2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Obj_player",
