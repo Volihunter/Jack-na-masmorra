@@ -3,12 +3,12 @@ tempo_perseguidor --;
 
 //fazendo meu tiro seguir o player
 //Tiro que segue a direção do player
-	if(tempo_perseguidor > 0)
+	if(tempo_perseguidor > 0 && instance_exists(Obj_inimigoA1))
 	{
 		var _ex, _ey;
 
-		_ex = Obj_player.x;
-		_ey = Obj_player.y;
+		_ex = Obj_inimigoA1.x;
+		_ey = Obj_inimigoA1.y;
 	
 		if point_distance(x,y, _ex, _ey) > -10
 		{
@@ -16,4 +16,5 @@ tempo_perseguidor --;
 	}
 	
 	}
+	
 	

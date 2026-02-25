@@ -15,7 +15,7 @@ espera_praatk = 50;
 jackform = 1;
 
 //variável de vidas
-vidas = 1;
+vidas = 4;
 
 //timer de invencibilidade
 timer_invencivel = game_get_speed(gamespeed_fps) * 3;

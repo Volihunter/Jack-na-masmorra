@@ -1,13 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_barreira_espiritual",
+  "%Name":"Obj_projetil_player",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_barreira_espiritual","path":"objects/Obj_barreira_espiritual/Obj_barreira_espiritual.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_bastao","path":"objects/Obj_bastao/Obj_bastao.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_barreira_espiritual",
+  "name":"Obj_projetil_player",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,10 +31,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Spr_barreira_espiritual",
-    "path":"sprites/Spr_barreira_espiritual/Spr_barreira_espiritual.yy",
+    "name":"Spr_projetil_player",
+    "path":"sprites/Spr_projetil_player/Spr_projetil_player.yy",
   },
   "spriteMaskId":null,
   "visible":true,
