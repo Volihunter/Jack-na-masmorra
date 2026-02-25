@@ -1,6 +1,6 @@
 //Aumentando meu tamanho
-image_xscale = 2;
-image_yscale = 2;
+image_xscale = 1.7;
+image_yscale = 1.7;
 
 //Minha velocidade
 vel = -3;

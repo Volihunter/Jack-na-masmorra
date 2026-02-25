@@ -3,7 +3,7 @@
 vel_tiro = 2.5;
 
 //Tempo que meu tiro vai seguir o player
-tempo_perseguidor = 200;
+tempo_perseguidor = 260;
 
 
 //Aumentando meu tamanho

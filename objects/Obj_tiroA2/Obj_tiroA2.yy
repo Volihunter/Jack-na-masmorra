@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_projetil_player",
+  "%Name":"Obj_tiroA2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_bastao","path":"objects/Obj_bastao/Obj_bastao.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_barreira_espiritual","path":"objects/Obj_barreira_espiritual/Obj_barreira_espiritual.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_projetil_player",
+  "name":"Obj_tiroA2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objects/Player.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_projetil_player",
-    "path":"sprites/Spr_projetil_player/Spr_projetil_player.yy",
+    "name":"Spr_projetiliniA2",
+    "path":"sprites/Spr_projetiliniA2/Spr_projetiliniA2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
