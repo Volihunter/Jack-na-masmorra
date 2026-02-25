@@ -7,7 +7,7 @@ morri = 0;
 //Me movendo para a última posição do player
 alarm[0] = 50;
 
-//Variavel da minha velocidade velocidade
+//Variavel da minha velocidade 
 vel = 0.9;
 
 //Variável de vida

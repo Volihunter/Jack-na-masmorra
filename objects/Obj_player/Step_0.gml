@@ -11,14 +11,17 @@ entremundos();
 minhaposx = x;
 
 //Debugando
-show_debug_message(jackform);
+//show_debug_message(jackform);
 
-//Ao sair do modo espírito ele tem que voltar pro corpo e as barreiras também somem
+//Ao sair do modo espírito ele tem que voltar pro corpo, as barreira somem e também o efeito do xablau
 if(instance_exists(Obj_player_spirit) && jackform == 1)
 {
   instance_destroy(Obj_player_spirit);
   instance_destroy(Obj_barreira_espiritual);
 }
+
+
+
 
 if(invencibilidade > 0)
 {

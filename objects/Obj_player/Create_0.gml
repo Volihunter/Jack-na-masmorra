@@ -23,6 +23,9 @@ timer_invencivel = game_get_speed(gamespeed_fps) * 3;
 //contador da invencibilidade
 invencibilidade = 0;
 
+//Variável que guarda o valor do efeito do jackmode 0
+SFX = noone;
+
 //Pausando minha animação
 image_speed = 0;
 

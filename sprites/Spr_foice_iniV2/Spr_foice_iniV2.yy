@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Inimigos",
-    "path":"folders/Sprites/Inimigos.yy",
+    "name":"Vermelhos",
+    "path":"folders/Sprites/Inimigos/Vermelhos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
