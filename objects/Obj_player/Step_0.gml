@@ -11,7 +11,7 @@ entremundos();
 minhaposx = x;
 
 //Debugando
-show_debug_message(vidas);
+//show_debug_message(vidas);
 
 //Checando se eu morri
 if(vidas <= 0)

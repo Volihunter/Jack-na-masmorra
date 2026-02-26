@@ -12,3 +12,7 @@ var _apertei = mouse_check_button(mb_left)
 	{
 		game_end();	
 	}
+	else if(_apertei && image_index == 3)
+	{
+		room_goto(rm_inicio);	
+	}

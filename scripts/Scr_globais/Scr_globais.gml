@@ -1,2 +1,2 @@
 //Minhas variáveis globais
-
+randomise()

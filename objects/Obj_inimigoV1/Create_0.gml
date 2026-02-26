@@ -11,10 +11,13 @@ alarm[0] = 50;
 vel = 0.9;
 
 //Variável de vida
-vidas = 4;
+vidas = 6;
 
 //Variável para tomar hit
 tomei_hit = 0;
+
+//Variável que diz se eu sou o original ou as crias
+cria = 0;
 
 
 
@@ -31,6 +34,7 @@ multiplicando = function()
 		_cria1.hspeed = 1.5;
 		_cria1.vel = 1.2;
 		_cria1.vidas = 1;
+		_cria1.cria = 1;
 		//_cria1.solid = false;
 		
 		var _cria2 = instance_create_layer(x - 45,y,"Inimigos", Obj_inimigoV1)
@@ -41,6 +45,7 @@ multiplicando = function()
 		_cria2.hspeed = -1.5;
 		_cria2.vel = 1.2;
 		_cria2.vidas = 1;
+		_cria2.cria = 1;
 		//_cria2.solid = false;
 		
 	}

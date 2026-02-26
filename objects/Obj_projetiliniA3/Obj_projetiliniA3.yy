@@ -6,8 +6,8 @@
   "name":"Obj_projetiliniA3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Inimigos",
+    "path":"folders/Objects/Inimigos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

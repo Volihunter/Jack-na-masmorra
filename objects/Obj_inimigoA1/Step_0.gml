@@ -14,4 +14,4 @@ if(parar_e_atirar == 0)
 	vai_e_volta();
 }
 
-show_debug_message(vel);
+//show_debug_message(vel);
