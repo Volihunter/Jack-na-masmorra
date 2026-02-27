@@ -31,7 +31,6 @@ image_speed = 0;
 
 
 
-
 #endregion
 
 
@@ -87,8 +86,9 @@ bastaozada = function()
 		if(mouse_check_button(mb_left))
 		{
 			timer_atk = espera_praatk;
-			var _bastao = instance_create_layer(x - 5,y - 25,"Player",Obj_bastao);
+			var _bastao = instance_create_layer(x - 30,y - 25,"Player",Obj_bastao);
 			_bastao.image_xscale = 1.5;
+			
 			
 		}	
 	}
@@ -102,8 +102,8 @@ entremundos = function()
 	{
 		jackform = !jackform;
 		var _espirito = instance_create_layer(x,y,"Objetos",Obj_player_spirit);
-		_espirito.image_xscale = 1.5;
-		_espirito.image_yscale = 1.5;
+		_espirito.image_xscale = 2;
+		_espirito.image_yscale = 2;
 		_espirito.image_alpha = 0.9;
 	}
 }	

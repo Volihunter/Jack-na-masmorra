@@ -16,3 +16,7 @@ var _apertei = mouse_check_button(mb_left)
 	{
 		room_goto(rm_inicio);	
 	}
+	else if(_apertei && image_index ==4)
+	{
+		room_goto(rm_tutorial);	
+	}

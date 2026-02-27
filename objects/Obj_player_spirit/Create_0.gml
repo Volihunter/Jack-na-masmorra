@@ -17,7 +17,7 @@ bari_bari_noooo = function()
 	if(mouse_check_button_pressed(mb_left))
 	{
 		//Criando a minha barreira a minha esquerda!
-		var _barreira_esq = instance_create_layer(x - 30,y,"Objetos",Obj_barreira_espiritual);
+		var _barreira_esq = instance_create_layer(x - 50,y,"Objetos",Obj_barreira_espiritual);
 			barreira_esq = _barreira_esq;	
 			
 	}
@@ -30,7 +30,7 @@ bari_bari_noooo = function()
 	if(mouse_check_button_pressed(mb_right))
 	{
 		//Criando minha barreira da direita!
-		var _barreira_dire = instance_create_layer(x + 30,y,"Objetos",Obj_barreira_espiritual);
+		var _barreira_dire = instance_create_layer(x + 50,y,"Objetos",Obj_barreira_espiritual);
 
 		barreira_dire = _barreira_dire;	
 	}

@@ -37,5 +37,5 @@ if(invencibilidade > 0)
 else if (invencibilidade < 0)
 {
 	image_speed = 0;
-	image_index = 0;
+
 }
