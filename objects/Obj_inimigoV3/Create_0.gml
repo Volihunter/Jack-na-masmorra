@@ -26,10 +26,12 @@ tomando_dano = function()
 		tomei_hit = 0;
 		if(image_xscale > 1) image_xscale -= 1;
 		if(image_yscale > 1) image_yscale -= 1;
-		vel += 0.4;
+		vel += 0.6;
 	}
 	else if (vidas <= 0)
 	{
 		instance_destroy();	
+		//aumentando o contador
+		contando();
 	}
 }

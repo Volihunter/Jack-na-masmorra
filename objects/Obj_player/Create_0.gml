@@ -105,6 +105,14 @@ entremundos = function()
 		_espirito.image_xscale = 2;
 		_espirito.image_yscale = 2;
 		_espirito.image_alpha = 0.9;
+		if(jackform == 0)
+		{
+			layer_set_visible("Mundo_esp",true);
+		}
+		else if(jackform == 1)
+		{
+			layer_set_visible("Mundo_esp",false);	
+		}
 	}
 }	
 
@@ -118,6 +126,7 @@ perde_vida = function(_qtd = 1)
 	}
 	else if(vidas <= 0)
 	{
+		global.contador = 0;
 		layer_sequence_create("Sq_gameover",0,0,Sq_game_over);
 		audio_stop_all();
 	}

@@ -35,7 +35,17 @@ atirar = function()
 	_tiro2 = instance_create_layer(x, y + 9,"Objetos",Obj_tiroA2);
 	_tiro3 = instance_create_layer(x, y -9, "Objetos", Obj_tiroA2);
 	
-	_tiro.direction = 0;
-	_tiro2.direction = 45;
-	_tiro3.direction = 315;
+	if(x < 750)
+	{
+		_tiro.direction = 0;
+		_tiro2.direction = 45;
+		_tiro3.direction = 315;
+	}
+	
+	if(x > 750)
+	{
+		_tiro.direction = 180;
+		_tiro2.direction = 135;
+		_tiro3.direction = 225;	
+	}
 }

@@ -67,5 +67,10 @@ tomando_dano = function()
 		multiplicando();
 		//tomei a bastaozada final
 		instance_destroy();
+		//aumentando o contador
+		if(multipliquei == 0)
+		{
+			contando();
+		}
 	}
 }

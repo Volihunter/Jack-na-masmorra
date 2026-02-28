@@ -1,5 +1,3 @@
-
-
 //Minha velocidade
 vel_tiro = 2.5;
 

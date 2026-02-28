@@ -2,3 +2,6 @@
 //Mas levo o tiro comigo para o além
 instance_destroy(other);
 instance_destroy();
+
+//aumentando o contador
+contando();

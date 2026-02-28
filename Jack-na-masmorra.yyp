@@ -64,7 +64,6 @@
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
     {"id":{"name":"Obj_projetil_player","path":"objects/Obj_projetil_player/Obj_projetil_player.yy",},},
     {"id":{"name":"Obj_projetil","path":"objects/Obj_projetil/Obj_projetil.yy",},},
-    {"id":{"name":"Obj_projetiliniA3","path":"objects/Obj_projetiliniA3/Obj_projetiliniA3.yy",},},
     {"id":{"name":"Obj_projetiltuto","path":"objects/Obj_projetiltuto/Obj_projetiltuto.yy",},},
     {"id":{"name":"Obj_tiro_mortalA3","path":"objects/Obj_tiro_mortalA3/Obj_tiro_mortalA3.yy",},},
     {"id":{"name":"Obj_tiroA2_player","path":"objects/Obj_tiroA2_player/Obj_tiroA2_player.yy",},},

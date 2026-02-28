@@ -1,3 +1,5 @@
+
+
 //Aumentando meu tamanho
 image_xscale = 1.7;
 image_yscale = 1.7;
@@ -32,6 +34,8 @@ vai_e_volta = function()
 //Método para atirar
 atirar = function()
 {	
-	var _tiro
+	var _tiro;
+	
 	_tiro = instance_create_layer(x,y,"Objetos",Obj_projetil);
+	
 }
