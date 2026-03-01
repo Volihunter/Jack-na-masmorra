@@ -1,4 +1,4 @@
 //Fazendo o bastão ficar fixo no player (ra eru)
-x = Obj_player.x - 12;
+x = Obj_player.x + 2.5;
 
-y = Obj_player.y - 25;
+y = Obj_player.y -40;

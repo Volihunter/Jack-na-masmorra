@@ -17,6 +17,7 @@ tomei_hit = 0;
 alarm[0] = 50;
 
 
+
 //Método para perder vida
 tomando_dano = function()
 {

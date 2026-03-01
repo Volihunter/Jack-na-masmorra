@@ -9,7 +9,7 @@ tomando_dano();
 //Recuperando minha compostura
 if(cria = 0)
 {
-	if(image_xscale > 1)
+	if(image_xscale > 2)
 	{
 		image_xscale -= 0.3;	
 	}
@@ -18,7 +18,7 @@ if(cria = 0)
 		image_xscale = 1;
 	}
 
-	if(image_yscale < 1)
+	if(image_yscale < 2)
 	{
 		image_yscale += 0.3;
 	}

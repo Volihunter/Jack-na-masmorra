@@ -26,7 +26,8 @@ tomando_dano = function()
 		tomei_hit = 0;
 		if(image_xscale > 1) image_xscale -= 1;
 		if(image_yscale > 1) image_yscale -= 1;
-		vel += 0.6;
+		vel += 0.5;
+		image_speed ++;
 	}
 	else if (vidas <= 0)
 	{

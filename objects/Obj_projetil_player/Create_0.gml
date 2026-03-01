@@ -1,6 +1,9 @@
 //Minha velocidade
 vel_tiro = 2.5;
 
+
+//Som do tiro sendo "refletido"
+audio_play_sound(Snd_reflete_tiro,3,0,0.4);
 //Tempo que meu tiro vai seguir o player
 tempo_perseguidor = 400;
 

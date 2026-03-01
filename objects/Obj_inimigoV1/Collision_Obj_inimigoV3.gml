@@ -1,7 +1,7 @@
 //Chega pra lá mano
 instance_nearest(x,y,Obj_inimigoV3)
 {
-	hspeed = -0.8;
-	vspeed = -0.8;
+	hspeed = -2;
+	vspeed = -2;
 }
 move_bounce_solid(true);

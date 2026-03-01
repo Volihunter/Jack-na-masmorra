@@ -19,6 +19,10 @@ Invoca_monstro = function()
 	{
 		instance_create_layer(x,y,"Inimigos",Obj_inimigoV3);	
 	}
+	else if(meu_monstro < 38)
+	{
+		instance_create_layer(x,y,"Inimigos",choose(Obj_inimigoV2,Obj_inimigoV3))	
+	}
 }
 
 

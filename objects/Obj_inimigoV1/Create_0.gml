@@ -19,6 +19,12 @@ tomei_hit = 0;
 //Variável que diz se eu sou o original ou as crias
 cria = 0;
 
+//Aumentando um pouquinho meu tamanho
+if(multipliquei = 0)
+{
+	image_xscale = 2;
+	image_yscale = 2;
+}
 
 
 //Ao morrer eu me divido em dois filhotes

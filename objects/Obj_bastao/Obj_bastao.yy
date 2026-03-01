@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_bastao",
-    "path":"sprites/Spr_bastao/Spr_bastao.yy",
+    "name":"Spr_teste_bastao",
+    "path":"sprites/Spr_teste_bastao/Spr_teste_bastao.yy",
   },
   "spriteMaskId":null,
   "visible":true,
