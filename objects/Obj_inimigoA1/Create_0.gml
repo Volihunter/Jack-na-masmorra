@@ -1,4 +1,5 @@
-
+//Variável do ladrão
+eu_tenho_chave = 0;
 
 //Aumentando meu tamanho
 image_xscale = 1.7;

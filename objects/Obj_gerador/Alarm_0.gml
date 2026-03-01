@@ -79,6 +79,8 @@ if(n_wave = 5)
 	
 		instance_create_layer(50, 329,"InimigosA",Obj_inimigoA3);
 		instance_create_layer(1259,329,"InimigosA",Obj_inimigoA3);
-		instance_create_layer(1259,60,"InimigosA",Obj_inimigoA1);
+		var _safadinho = instance_create_layer(1259,60,"InimigosA",Obj_inimigoA1);
+		_safadinho.eu_tenho_chave = 1;
 		instance_create_layer(50, 300,"InimigosA",Obj_inimigoA2);
 }
+
