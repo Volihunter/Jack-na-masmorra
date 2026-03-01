@@ -80,6 +80,7 @@
     {"id":{"name":"Scr_globais","path":"scripts/Scr_globais/Scr_globais.yy",},},
     {"id":{"name":"Sq_game_over","path":"sequences/Sq_game_over/Sq_game_over.yy",},},
     {"id":{"name":"Snd_bastaozada","path":"sounds/Snd_bastaozada/Snd_bastaozada.yy",},},
+    {"id":{"name":"Snd_gameplay","path":"sounds/Snd_gameplay/Snd_gameplay.yy",},},
     {"id":{"name":"Snd_ganhavida","path":"sounds/Snd_ganhavida/Snd_ganhavida.yy",},},
     {"id":{"name":"Snd_reflete_tiro","path":"sounds/Snd_reflete_tiro/Snd_reflete_tiro.yy",},},
     {"id":{"name":"Snd_shine","path":"sounds/Snd_shine/Snd_shine.yy",},},

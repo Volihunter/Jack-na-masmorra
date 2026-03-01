@@ -7,7 +7,7 @@ image_yscale = 3.5;
 vel = 0.3;
 
 //Variável de vidas
-vidas = 10;
+vidas = 8;
 
 //Variável para tomar hit
 tomei_hit = 0;
