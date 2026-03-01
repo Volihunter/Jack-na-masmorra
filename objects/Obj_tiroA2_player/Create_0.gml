@@ -1,4 +1,5 @@
-
+//Som do tiro sendo "refletido"
+audio_play_sound(Snd_reflete_tiro,3,0,0.4);
 
 //Minha velocidade
 vel_tiro = 3.2;
